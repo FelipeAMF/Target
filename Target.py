@@ -1,6 +1,7 @@
 import os
 #class criada para organizar os comandos do programa fibonacci!
 class FIB:
+ 
  def CalculoProx(self, valor1, valor2):
   return anteriores[-1] + anteriores[-2]
  def CalculoFib(self, num1):
