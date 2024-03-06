@@ -45,7 +45,7 @@ if (menu in MENU1):
 #comando para Calcular e informar os antecessores e o proximo numero na sequencia de fibonacci
 elif (menu in MENU2):
   print('Iniciando Programa FIBONACCI...')
-  Num = int(input('Digite um numero'))
+  Num = int(input('Digite um numero: '))
   Init = FIB()
   anteriores= Init.CalculoFib(Num)
   valor2= Init.CalculoFib(Num)
