@@ -4,7 +4,7 @@ class FIB:
  
  def CalculoProx(self, valor1, valor2):
   return anteriores[-1] + anteriores[-2]
- def CalculoFib(self, num1):
+  def CalculoFib(self, num1):
   anteriores = []
   valor1 = 0
   valor2 = 1
@@ -12,9 +12,9 @@ class FIB:
     anteriores.append(valor1)
     valor1, valor2 = valor2, valor1 + valor2
   return anteriores
- def NumerosNFib(self, n):
+  def NumerosNFib(self, n):
     return int(n ** 0.5) ** 2 == n
- def NumerosFib(self, num):
+  def NumerosFib(self, num):
     return self.NumerosNFib(5 * num ** 2 + 4) or self.NumerosNFib(5 * num ** 2 - 4)
 
 MENU1 = {'SOMA','soma','1'}
